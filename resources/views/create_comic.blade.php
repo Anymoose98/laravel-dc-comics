@@ -4,7 +4,7 @@
 <div class="container my-5">
     <div class="row">
         <div class="col-12">
-            <form action="{{ route('users.store')}}" method="POST">
+            <form action="{{ route('UserController') }}" method="POST">
                 @csrf
                 <label for="title" class="form-label">Titolo</label>
                 <input type="text" class="form-control" name="title"  placeholder="Titolo">
@@ -26,7 +26,6 @@
 
                 <label for="type" class="form-label">Tipo</label>
                 <input type="text" class="form-control" name="type"  placeholder="Tipo">
-
             </form>
         </div>
     </div>
