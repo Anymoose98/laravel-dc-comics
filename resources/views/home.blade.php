@@ -22,7 +22,9 @@
 
                     {{-- Bottone --}}
                     <div class="col-12 text-center">
-                        <button type="button" class="btn load-more mb-4 px-5 ">LOAD MORE</button>
+                        <a href="{{ route('comics.create') }}">
+                            <button type="button" class="btn load-more mb-4 px-5 ">Aggiungi altri</button>
+                        </a>
                     </div>
                 </div>
             </div>
